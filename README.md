@@ -1,9 +1,14 @@
 # Terminatable sleep
 Terminatable sleep for nodejs apps
 
+Install:
+```
+npm i terminatable_sleep
+```
+
 How to use:
 ```js
-const {terminator, terminatableSleep} = require("ternimatable_sleep");
+const {terminator, terminatableSleep} = require("terminatable_sleep");
 
 // example
 function closeConnection() {

@@ -1,5 +1,5 @@
 {
-  "name": "terminatable_spleep",
+  "name": "terminatable_sleep",
   "version": "0.0.1",
   "description": "Terminatable spleep",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nicklasos/terminatable_spleep.git"
+    "url": "git+https://github.com/nicklasos/terminatable_sleep.git"
   },
   "keywords": [
     "sleep"
@@ -16,7 +16,7 @@
   "author": "Nicklasos",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nicklasos/terminatable_spleep/issues"
+    "url": "https://github.com/nicklasos/terminatable_sleep/issues"
   },
-  "homepage": "https://github.com/nicklasos/terminatable_spleep#readme"
+  "homepage": "https://github.com/nicklasos/terminatable_sleep#readme"
 }
