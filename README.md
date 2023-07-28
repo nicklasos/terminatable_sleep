@@ -37,8 +37,7 @@ terminator.init({
             terminator.onTerminate(cancel);
         });
 
-        // or just... await terminatableSleep(15000, terminator.onTerminate);
-        
+        // or just use await terminatableSleep(15000, terminator.onTerminate);
         
         if (terminator.isTerminating()) {
             break;
@@ -46,6 +45,5 @@ terminator.init({
     }
 
 })();
-
-
 ```
+Run your program and then hit CTRL+C
