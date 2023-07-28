@@ -11,8 +11,6 @@ function closeConnection() {
 
 terminator.init({
     beforeExit: async () => {
-        console.log('Before exit');
-
         await closeConnection();
 
         console.log('Connection closed');
@@ -25,11 +23,11 @@ terminator.init({
 
         console.log('Working...');
 
-        await terminatableSleep(4000, terminator.onTerminate);
+        await terminatableSleep(15000, terminator.onTerminate);
 
         if (terminator.isTerminating()) {
+            console.log('break');
             break;
         }
     }
-
 })();

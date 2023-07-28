@@ -30,6 +30,7 @@ const terminator = {
             isTerminating = true;
 
             await beforeExit();
+            onTerminate();
         });
     },
 

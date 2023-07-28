@@ -31,8 +31,15 @@ terminator.init({
 
         console.log('Working...');
 
-        await terminatableSleep(4000, terminator.onTerminate);
+        await terminatableSleep(15000, cancel => {
+            // Call the cancel() function to cancel the sleep
 
+            terminator.onTerminate(cancel);
+        });
+
+        // or just... await terminatableSleep(15000, terminator.onTerminate);
+        
+        
         if (terminator.isTerminating()) {
             break;
         }
