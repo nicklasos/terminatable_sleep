@@ -1,0 +1,22 @@
+{
+  "name": "terminatable_spleep",
+  "version": "0.0.1",
+  "description": "Terminatable spleep",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicklasos/terminatable_spleep.git"
+  },
+  "keywords": [
+    "sleep"
+  ],
+  "author": "Nicklasos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicklasos/terminatable_spleep/issues"
+  },
+  "homepage": "https://github.com/nicklasos/terminatable_spleep#readme"
+}

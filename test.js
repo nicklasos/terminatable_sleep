@@ -1,11 +1,5 @@
-# Terminatable sleep
-Terminatable sleep for nodejs apps
+const {terminator, terminatableSleep} = require("./index");
 
-How to use:
-```js
-const {terminator, terminatableSleep} = require("ternimatable_sleep");
-
-// example
 function closeConnection() {
     return new Promise(resolve => {
         setTimeout(() => {
@@ -39,6 +33,3 @@ terminator.init({
     }
 
 })();
-
-
-```
